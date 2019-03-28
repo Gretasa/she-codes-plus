@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Weatherfrog to find the Sun!</title>
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|ZCOOL+XiaoWei" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <style>
         body {
             font-family: 'Major Mono Display', monospace;
@@ -15,6 +17,7 @@
 </head>
 
 <body>
+    <div class="container">
     <h1>Weatherfrog</h1>
 
     <form class="search-current">
@@ -22,23 +25,40 @@
             type="submit" class="button-current" value="Search" />
     </form>
     <hr />
+
     <h1>Location</h1>
     <h2>Current Weather</h2>
-    <div class="localCityBox">
-        <h3>New York</h3>
-        <h4>USA</h4>
+    <div class="row">
+    <div class="col-sm-3 local-city">
+        <h3>Venice</h3>
+        <h4>Italy</h4>
         <p>12 hours of sun</p>
-        <img src="" class="imgBox">
         <p>18ºC</p>
     </div>
-
+    </div>
     </ul>
     </div>
     </div>
-
-    <div class="sunnyCities">
-        <h2>Need Inspiration?</h2>
-        <div class="cityBox1">
+<div class="card" style="width: 18rem;">
+    <img src="images/leaving_man.jpg" class="card-img-top" alt="leaving_man">
+    <div class="card-body">
+        <h5 class="sunny-place">Seeking For Sun?</h5>
+        <p class="sunny-place-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+    </ul>
+    <div class="card-body">
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+    </div>
+</div>
+    
+*/i just have to check it 
+        <!-- <div class="cityBox1">
             <h3>Lisbon</h3>
             <h4>Portugal</h4>
             <p>12 hours of sun</p>
@@ -64,6 +84,7 @@
         </div>
     </div>
     </ul>
+    </div> -->
 </body>
  
 </html>
