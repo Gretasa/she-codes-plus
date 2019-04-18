@@ -1,0 +1,14 @@
+body {
+  font-family: "Major Mono Display", monospace;
+  font-family: "ZCOOL XiaoWei", serif;
+}
+
+.search-current {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.slider-example {
+  position: relative;
+}
