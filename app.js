@@ -1,4 +1,5 @@
 let place = document.querySelector("#weather-city");
+let messuredTime = document.querySelector("#weather-messured-time");
 
 let apiKey = "ce59557402d1a141a0672c568545cc55";
 let apiRoot = "https://api.openweathermap.org/data/2.5";
@@ -6,8 +7,9 @@ let apiRoot = "https://api.openweathermap.org/data/2.5";
 
 function updateWeather(response) {
   place.innerHTML = response.data.name;
+  messuredTime.innerHTML = response.data.dt;
 }
-let apiUrl = `${apiRoot}/weather?q=Lisbon &appid=${apiKey};
+let apiUrl = `${apiRoot}/weather?q=Lisbon &appid=${apiKey}`;
 axios.get(apiUrl).then(updateWeather);
 
 // let place= document.querySelector("#weather-city");
