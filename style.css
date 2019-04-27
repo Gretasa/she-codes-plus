@@ -1,14 +1,14 @@
 body {
   font-family: "Major Mono Display", monospace;
   font-family: "ZCOOL XiaoWei", serif;
+  padding: 20px;
 }
 
-.search-current {
-  position: fixed;
+.weather-search-form {
+  position: relative;
   top: 0;
   right: 0;
 }
-
-.slider-example {
-  position: relative;
+.weather {
+  border: 2px;
 }
