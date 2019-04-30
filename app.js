@@ -17,7 +17,7 @@ let defaultCity = "Lisbon";
 
 function formatDate(date) {
   //let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-  let day = days[date.getDate()];
+  //let day = days[date.getDate()];
   let hours = date.getHours();
   let minutes = date.getMinutes();
   if (minutes < 10) {
