@@ -16,14 +16,14 @@ let defaultCity = "Lisbon";
 //let apiPath = "weather";
 
 function formatDate(date) {
-  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  //let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   let day = days[date.getDate()];
   let hours = date.getHours();
   let minutes = date.getMinutes();
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
-  return `${day} ${hours} : ${minutes}`;
+  return `${hours} : ${minutes}`;
 }
 
 function updateWeather(response) {
